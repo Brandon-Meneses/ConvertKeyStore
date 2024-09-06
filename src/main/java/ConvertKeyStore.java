@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+
 
 import org.spongycastle.jce.provider.BouncyCastleProvider;
 
@@ -13,8 +13,8 @@ public class ConvertKeyStore {
         Security.addProvider(new BouncyCastleProvider());
 
         // Actualiza esta ruta a la ubicación correcta de tu archivo truststore.jks
-        String jksPath = "/Users/brandonluismenesessolorzano/Desktop/trust/truststore.jks";
-        String bksPath = "/Users/brandonluismenesessolorzano/Desktop/trust/truststore.bks";
+        String jksPath = "/Users/brandonluismenesessolorzano/Desktop/TrustStore/JKS/truststore2.jks";
+        String bksPath = "/Users/brandonluismenesessolorzano/Desktop/TrustStore/truststore2.bks";
 
         // Load the JKS keystore
         FileInputStream jksInputStream = new FileInputStream(jksPath);

@@ -2,7 +2,8 @@ package PACKAGE_NAME;
 
 
 
-import org.spongycastle.jce.provider.BouncyCastleProvider;
+
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -18,8 +19,8 @@ public class ListTruststore {
         try {
             Security.addProvider(new BouncyCastleProvider());
             KeyStore trustStore = KeyStore.getInstance("BKS", "BC");
-            try (FileInputStream fis = new FileInputStream("/ruta/a/tu/truststore.bks")) {
-                trustStore.load(fis, "password".toCharArray());
+            try (FileInputStream fis = new FileInputStream("/Users/brandonluismenesessolorzano/Desktop/TrustStore/truststore2.bks")) {
+                trustStore.load(fis, "changeit".toCharArray());
             }
 
             Enumeration<String> aliasesEnum = trustStore.aliases();
