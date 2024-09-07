@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cbf27579-c153-492c-8889-0dcc51ab0fba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConvertKeyStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConvertKeyStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PACKAGE_NAME/ListTruststore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PACKAGE_NAME/ListTruststore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
       <workItem from="1721106018458" duration="1000" />
       <workItem from="1721415396200" duration="39000" />
       <workItem from="1725581552525" duration="18000" />
-      <workItem from="1725582602174" duration="5838000" />
+      <workItem from="1725582602174" duration="9219000" />
     </task>
     <servers />
   </component>

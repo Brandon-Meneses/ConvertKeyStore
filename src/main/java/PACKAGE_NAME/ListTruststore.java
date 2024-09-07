@@ -19,7 +19,7 @@ public class ListTruststore {
         try {
             Security.addProvider(new BouncyCastleProvider());
             KeyStore trustStore = KeyStore.getInstance("BKS", "BC");
-            try (FileInputStream fis = new FileInputStream("/Users/brandonluismenesessolorzano/Desktop/TrustStore/truststore2.bks")) {
+            try (FileInputStream fis = new FileInputStream("/Users/brandonluismenesessolorzano/Desktop/TrustStore/truststore.bks")) {
                 trustStore.load(fis, "changeit".toCharArray());
             }
 
